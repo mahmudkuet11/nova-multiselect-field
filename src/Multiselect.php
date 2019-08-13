@@ -1,6 +1,6 @@
 <?php
 
-namespace OptimistDigital\MultiselectField;
+namespace Mahmud\MultiselectField;
 
 use Laravel\Nova\Fields\Field;
 
@@ -14,7 +14,7 @@ class Multiselect extends Field
      * Sets the options available for select.
      *
      * @param array $options
-     * @return \OptimistDigital\MultiselectField\Multiselect
+     * @return \Mahmud\MultiselectField\Multiselect
      **/
     public function options($options = [])
     {
@@ -29,7 +29,7 @@ class Multiselect extends Field
      * Sets the max number of options the user can select.
      *
      * @param int $max
-     * @return \OptimistDigital\MultiselectField\Multiselect
+     * @return \Mahmud\MultiselectField\Multiselect
      **/
     public function max($max)
     {
@@ -40,7 +40,7 @@ class Multiselect extends Field
      * Sets the placeholder value displayed on the field.
      *
      * @param string $placeholder
-     * @return \OptimistDigital\MultiselectField\Multiselect
+     * @return \Mahmud\MultiselectField\Multiselect
      **/
     public function placeholder($placeholder)
     {
@@ -51,7 +51,7 @@ class Multiselect extends Field
      * Sets the maximum number of options displayed at once.
      *
      * @param int $optionsLimit
-     * @return \OptimistDigital\MultiselectField\Multiselect
+     * @return \Mahmud\MultiselectField\Multiselect
      **/
     public function optionsLimit($optionsLimit)
     {

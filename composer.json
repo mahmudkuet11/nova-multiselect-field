@@ -1,5 +1,5 @@
 {
-  "name": "optimistdigital/nova-multiselect-field",
+  "name": "mahmudkuet11/nova-multiselect-field",
   "description": "A multiple select field for Laravel Nova.",
   "keywords": [
     "laravel",
@@ -9,13 +9,8 @@
   ],
   "authors": [
     {
-      "name": "Tarvo Reinpalu",
-      "email": "tarvoreinpalu@gmail.com",
-      "role": "Developer"
-    },
-    {
-      "name": "Optimist Digital",
-      "email": "info@optimistdigital.com",
+      "name": "MD. Mahmud Ur Rahman",
+      "email": "mahmudkuet11@gmail.com",
       "role": "Maintainer"
     }
   ],
@@ -25,13 +20,13 @@
   },
   "autoload": {
     "psr-4": {
-      "OptimistDigital\\MultiselectField\\": "src/"
+      "Mahmud\\MultiselectField\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "OptimistDigital\\MultiselectField\\FieldServiceProvider"
+        "Mahmud\\MultiselectField\\FieldServiceProvider"
       ]
     }
   },

@@ -15,7 +15,7 @@ This [Laravel Nova](https://nova.laravel.com) package adds a multiselect to Nova
 Install the package in a Laravel Nova project via Composer:
 
 ```bash
-composer require optimistdigital/nova-multiselect-field
+composer require mahmudkuet11/nova-multiselect-field
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ composer require optimistdigital/nova-multiselect-field
 The field is used similarly to Nova's native Select field. The field type in the database should be text-based (ie `string`, `text` or `varchar`), selected values are stored as a JSON array.
 
 ```php
-use OptimistDigital\MultiselectField\Multiselect;
+use Mahmud\MultiselectField\Multiselect;
 
 public function fields(Request $request)
 {
@@ -63,7 +63,7 @@ Possible options you can pass to the field using the option name as a function, 
 
 ## Credits
 
-- [Tarvo Reinpalu](https://github.com/Tarpsvo)
+- [optimistdigital](https://github.com/optimistdigital/nova-multiselect-field)
 - [shentao/vue-multiselect](https://vue-multiselect.js.org)
 
 ## License

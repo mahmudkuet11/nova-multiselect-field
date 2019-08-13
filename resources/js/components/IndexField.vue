@@ -14,7 +14,7 @@ export default {
       if (!Array.isArray(valuesArray)) return '-';
 
       const values = valuesArray
-        .map(val => this.field.options.find(opt => String(opt.value) === val))
+        .map(val => this.field.options.find(opt => String(opt.value) === String(val)))
         .filter(val => !!val)
         .map(val => val.label);
 
